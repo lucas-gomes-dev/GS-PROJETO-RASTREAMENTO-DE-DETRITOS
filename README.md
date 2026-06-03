@@ -191,7 +191,7 @@ Distância menor que 50 km (simulados)
 
 ## Executando no Wokwi
 
-1. Abra o projeto no Wokwi. Link:
+1. Abra o projeto no Wokwi. Link: https://wokwi.com/projects/465842634128269313
 2. Inicie a simulação.
 3. Altere a distância do objeto no sensor HC-SR04.
 4. Observe:
@@ -227,8 +227,3 @@ A solução demonstra como sensores e sistemas embarcados podem auxiliar na toma
 - Felipe Medino Neves RM573287
 - Raphael dos Santos Benevides RM573378
 
----
-
-# Vídeo Demonstrativo
-
-Link do vídeo desenvolvido para a disciplina de Storytelling. Link:
