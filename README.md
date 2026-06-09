@@ -35,8 +35,7 @@ Desenvolver um sistema capaz de:
 | LED Laranja | 1 |
 | LED Vermelho | 1 |
 | Buzzer | 1 |
-| Resistor 220 Ω | 2 |
-| Resistor 1 kΩ | 1 |
+| Resistores | 3 |
 
 ---
 
@@ -102,12 +101,12 @@ Distância menor que 50 km (simulados)
 
 | Componente | Pino Arduino |
 |------------|-------------|
-| HC-SR04 Trigger | D9 |
-| HC-SR04 Echo | D10 |
-| LED Vermelho | D12 |
-| LED Verde | D13 |
-| LED Laranja | D7 |
-| Buzzer | D11 |
+| HC-SR04 Trigger | 9 |
+| HC-SR04 Echo | 10 |
+| LED Vermelho | 12 |
+| LED Verde | 13 |
+| LED Laranja | 7 |
+| Buzzer | 11 |
 | LCD SDA | A4 |
 | LCD SCL | A5 |
 | Alimentação LCD | 5V |
@@ -117,17 +116,17 @@ Distância menor que 50 km (simulados)
 
 ## Ligações dos LEDs
 
-### LED Vermelho
-- Anodo → Pino D12
-- Catodo → Resistor 220 Ω → GND
+### LED Vermelho (LedR)
+- Positivo → Pino 12
+- Negativo → Resistor → GND
 
-### LED Verde
-- Anodo → Pino D13
-- Catodo → Resistor 220 Ω → GND
+### LED Verde (LedG)
+- Positivo → Pino 13
+- Negativo → Resistor → GND
 
-### LED Laranja
-- Anodo → Pino D7
-- Catodo → Resistor 1 kΩ → GND
+### LED Laranja (LedO)
+- Positivo → Pino 7
+- Negativo → Resistor → GND
 
 ---
 
@@ -137,8 +136,8 @@ Distância menor que 50 km (simulados)
 |----------|----------|
 | VCC | 5V |
 | GND | GND |
-| TRIG | D9 |
-| ECHO | D10 |
+| TRIG | 9 |
+| ECHO | 10 |
 
 ---
 
@@ -157,7 +156,7 @@ Distância menor que 50 km (simulados)
 
 | Buzzer | Arduino |
 |---------|----------|
-| Positivo | D11 |
+| Positivo | 11 |
 | Negativo | GND |
 
 ---
